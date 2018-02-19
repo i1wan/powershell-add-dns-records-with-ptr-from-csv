@@ -1,0 +1,4 @@
+Computer,IP
+server-01,10.1.0.181
+router-01,10.100.14.2
+firewall-01,172.17.7.2
