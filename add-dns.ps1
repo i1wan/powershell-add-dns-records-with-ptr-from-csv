@@ -1,13 +1,13 @@
+#██╗ ██╗██╗    ██╗ █████╗ ███╗   ██╗
+#██║███║██║    ██║██╔══██╗████╗  ██║
+#██║╚██║██║ █╗ ██║███████║██╔██╗ ██║
+#██║ ██║██║███╗██║██╔══██║██║╚██╗██║
+#██║ ██║╚███╔███╔╝██║  ██║██║ ╚████║
+#╚═╝ ╚═╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═══╝
 #By Iwan Hoogendoorn 19 Feb 2018 
 #This script create DNS A Record and associate Reverse PTR Records
 #If the Reverse Lookup Zones do not exist they will be credted as well
 #Create records.csv file with Computer,IP information
-#see example below add first line to your csv file
-#
-#Computer,IP
-#Computer,192.168.0.1
-#Computer1,192.168.0.2
-#Computer2,192.168.0.3
 #
 #Change with your dns server info $Servername and $Domain
 $ServerName = "<DNS-SERVER-NAME>"
